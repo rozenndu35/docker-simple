@@ -25,3 +25,5 @@ if __name__ == "__main__":
 ## lancement de l'application
 FLASK_APP=/opt/app.py flask run --host=0.0.0.0
 
+## lancer notre conteneur avec un port
+docker run -d --name web -p 5000:5000 webflask
