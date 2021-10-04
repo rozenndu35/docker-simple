@@ -1,4 +1,4 @@
-FROM Ubuntu
+FROM ubuntu
 RUN apt update
 RUN apt -y install python3 python3-pip vim
 RUN pip3 install flask
